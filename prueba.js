@@ -22,3 +22,15 @@ if (a === 10) {
     console.log('Valores dentro del if: \t' + a_1 + ' - ' + b);
 }
 console.log('Valores fuera del if: \t' + a + ' - ' + b);
+// Funciones y Tipado
+function devolverNumero(num) {
+    return 'El numero es: ' + num;
+}
+function esSaludo(saludo) {
+    if (saludo == 'Hola') {
+        return true;
+    }
+    return false;
+}
+console.log(devolverNumero(4));
+console.log(esSaludo('Hola'));

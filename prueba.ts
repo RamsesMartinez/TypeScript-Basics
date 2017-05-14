@@ -31,5 +31,19 @@ if(a === 10) {
 	console.log('Valores dentro del if: \t' + a + ' - ' + b);
 }
 
-	console.log('Valores fuera del if: \t' + a + ' - ' + b);
+console.log('Valores fuera del if: \t' + a + ' - ' + b);
 
+// Funciones y Tipado
+
+function devolverNumero(num:number):string {
+	return 'El numero es: ' + num;
+}
+
+function esSaludo(saludo:string):boolean {
+	if (saludo == 'Hola') {
+		return true;
+	}
+	return false;
+}
+console.log(devolverNumero(4));
+console.log(esSaludo('Hola'));
